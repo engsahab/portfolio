@@ -63,3 +63,53 @@ section h2 {
     margin-bottom: 20px;
     color: #2a2abe;
 }
+/* About Me */
+#about p {
+    font-size: 1.2rem;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+/* Projects */
+.project-card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #2a2abe;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.project-card a:hover {
+    background-color: #863758;
+}
+
+/* Contact */
+#contact p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
