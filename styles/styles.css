@@ -1,4 +1,4 @@
-/* Reset أساسي */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     transition: background-color 0.5s, color 0.5s;
 }
 
-/* الهيدر */
+/* header */
 header {
     background: linear-gradient(135deg, #6262a8, #3232ac);
     color: #ffffff;
@@ -37,134 +37,6 @@ header nav ul {
     flex-wrap: wrap;
 }
 
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-    padding: 8px 12px;
-    border-radius: 5px;
-    transition: background 0.3s, color 0.3s;
-}
-
-header nav ul li a:hover {
-    background-color: rgba(255,255,255,0.2);
-}
-
-/* الأقسام */
-section {
-    padding: 60px 20px;
-    max-width: 1000px;
-    margin: auto;
-    text-align: center;
-}
-
-section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #2a2abe;
-}
-
-/* About Me */
-#about p {
-    font-size: 1.2rem;
-    max-width: 900px;
-    margin: auto;
-    line-height: 1.8;
-}
-
-/* Projects */
-.project-card {
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 400px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.project-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-}
-
-.project-card img {
-    max-width: 100%;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-.project-card a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 8px 15px;
-    background-color: #2a2abe;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
-
-.project-card a:hover {
-    background-color: #863758;
-}
-
-/* Contact */
-#contact p {
-    margin: 10px 0;
-    font-size: 1.1rem;
-}
-
-button {
-    padding: 10px 20px;
-    margin-top: 20px;
-    cursor: pointer;
-    background-color: #2a2abe;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background 0.3s, transform 0.2s;
-}
-
-button:hover {
-    background-color: #2a2abe;
-    transform: scale(1.05);
-}
-
-/* Dark Mode */
-.dark-mode {
-    background-color: #121212;
-    color: #eee;
-}
-
-.dark-mode header {
-    background: linear-gradient(135deg, #939090, #555);
-}
-
-.dark-mode .project-card {
-    border-color: #444;
-    box-shadow: 0 4px 12px rgba(255,255,255,0.05);
-}
-
-.dark-mode .project-card a, .dark-mode button {
-    background-color: #555;
-}
-
-.dark-mode .project-card a:hover, .dark-mode button:hover {
-    background-color: #777;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    header nav ul {
-        flex-direction: column;
-        gap: 15px;
-    }
-    section {
-        padding: 40px 15px;
-    }
-    .project-card {
-        max-width: 90%;
-    }
+header ul{
+    
 }
