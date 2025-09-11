@@ -1,10 +1,11 @@
-/* Reset */
+/* Reset css */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Inspired by examples on StackOverflow */
+/* Body Style */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -13,7 +14,7 @@ body {
     transition: background-color 0.5s, color 0.5s;
 }
 
-/* header */
+/* Header */
 header {
     background: linear-gradient(135deg, #6262a8, #3232ac);
     color: #ffffff;
@@ -27,7 +28,7 @@ header h1 {
     margin-bottom: 10px;
     letter-spacing: 1px;
 }
-
+/* Navigation Links */
 header nav ul {
     list-style: none;
     display: flex;
@@ -50,7 +51,7 @@ header nav ul li a:hover {
     background-color: rgba(255,255,255,0.2);
 }
 
-/* section */
+/* Section */
 section {
     padding: 60px 20px;
     max-width: 1000px;
@@ -63,7 +64,7 @@ section h2 {
     margin-bottom: 20px;
     color: #2a2abe;
 }
-/* About Me */
+/* About Me Paragraph */
 #about p {
     font-size: 1.2rem;
     max-width: 900px;
@@ -71,7 +72,7 @@ section h2 {
     line-height: 1.8;
 }
 
-/* Projects */
+/* Projects Cards */
 .project-card {
     border: 1px solid #ccc;
     border-radius: 12px;
@@ -108,7 +109,7 @@ section h2 {
     background-color: #863758;
 }
 
-/* Contact */
+/* Contact Section & Button */
 #contact p {
     margin: 10px 0;
     font-size: 1.1rem;
