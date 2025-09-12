@@ -7,7 +7,7 @@
 /* Inspired by examples on StackOverflow */
 /* Body Style */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.6;
     background-color: #ece3f5;
     color: #333;
@@ -53,7 +53,7 @@ header nav ul li a:hover {
 
 /* Section */
 section {
-    padding: 60px 20px;
+    padding: 30px 50px;
     max-width: 1000px;
     margin: auto;
     text-align: center;
@@ -61,24 +61,46 @@ section {
 
 section h2 {
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
+    margin-bottom: 0;
     color: #2a2abe;
 }
 /* About Me Paragraph */
 #about p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     max-width: 900px;
     margin: auto;
     line-height: 1.8;
+    margin-bottom: 50px;
+}
+/* Skills Card*/
+.skills-card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 350px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
+.skills-card{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+#skills ul{
+    list-style-position: inside;
+    padding: auto;
+    font-size: 20px;
+    margin: o;
+}
 /* Projects Cards */
 .project-card {
     border: 1px solid #ccc;
     border-radius: 12px;
-    padding: 20px;
+    padding: 5px;
     margin: 20px auto;
-    max-width: 400px;
+    max-width: 600px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -134,7 +156,7 @@ button:hover {
 /* Dark Mode */
 .dark-mode {
     background-color: #121212;
-    color: #eee;
+    color:#f5f2f2;
 }
 
 .dark-mode header {
@@ -142,7 +164,7 @@ button:hover {
 }
 
 .dark-mode .project-card {
-    border-color: #444;
+    border-color: #525050;
     box-shadow: 0 4px 12px rgba(255,255,255,0.05);
 }
 
