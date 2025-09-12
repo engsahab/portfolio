@@ -1,10 +1,11 @@
 /* Reset css */
-* {
+/* Inspired by examples on StackOverflow */
+/* Inspired by examples on W3Schools Minor modifications made to fit my project*/
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* Inspired by examples on StackOverflow */
 /* Body Style */
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
