@@ -68,10 +68,10 @@ section h2 {
 /* About Me Paragraph */
 #about p {
     font-size: 1.4rem;
-    max-width: 900px;
-    margin: auto;
+    max-width: 700px;
+    margin: 30px auto;
     line-height: 1.8;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
 /* Skills Card*/
 .skills-card {
