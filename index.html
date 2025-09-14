@@ -1,59 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
-    <!-- Link to font awesome for inserting icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <!--Link to css for styles-->
-    <link rel="stylesheet" href="styles/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <!--Novigotion-->
-    <nav>
-        <div class="logo">PORTFOLIO</div>
-        <div class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </div>
-    </nav>
-    <!-- Hero Section -->
-<section class="hero" id="home">
-  <div class="hero-content">
-    <h1> Hi, I'm Sahab Al-harbi<br>Software Engineer</h1>
-    <p>Creating simple & beautiful websites.</p>
-    <a href="#contact" class="cta-button">Join Me</a>
-  </div>
-<div class="profile-container">
 
-  <div class="profile-border"></div>
-    
-  <img src="images/profile.jpeg" alt="profile-pic" width="500px" class="profile-pic">
-</div>
-</section>
-<!--about me--> 
-<section class="about" id="about">
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">PORTFOLIO</div>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="hamburger"><i class="fas fa-bars"></i></div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Hi, I'm Sahab Al-Harbi<br>Software Engineer</h1>
+      <p>Creating simple & beautiful websites.</p>
+      <a href="#contact" class="cta-button">Join Me</a>
+    </div>
+    <div class="profile-container">
+      <div class="profile-border"></div>
+      <img src="images/profile.jpeg" alt="profile-pic" class="profile-pic">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
   <h2 class="section-title">About Me</h2>
 
   <div class="about-content">
-    <!--  Left Side -->
+    <!-- Left Side: Text -->
     <div class="about-text">
       <p>
-I’m Sahab Al-Harbi, a passionate Software Engineering graduate from the University of Hafr Al-Batin. Ever since I built my first website, I have been captivated by the endless possibilities that technology offers. I enjoy creating digital solutions that are not only functional but also elegant and user-friendly.
-</p>
-<p>
-Throughout my journey, I have gained experience in full-stack development, mastering languages like HTML, CSS, JavaScript, and SQL, and tools such as Git and GitHub. I thrive on solving challenging problems, learning new technologies, and applying them to real-world projects that make an impact.
-</p>
-
-<p>
-When I’m not coding, I love exploring emerging technologies, contributing to open-source projects, and collaborating with like-minded individuals. My ultimate goal is to use technology to create meaningful experiences, helping people and businesses achieve more through smart, innovative solutions.
-</p>
+        I’m Sahab Al-Harbi, a passionate Software Engineering graduate from the University of Hafr Al-Batin. Ever since I built my first website, I have been captivated by the endless possibilities that technology offers. I enjoy creating digital solutions that are not only functional but also elegant and user-friendly.
+      </p>
+      <p>
+        Throughout my journey, I have gained experience in full-stack development, mastering languages like HTML, CSS, JavaScript, and SQL, and tools such as Git and GitHub. I thrive on solving challenging problems, learning new technologies, and applying them to real-world projects that make an impact.
+      </p>
+      <p>
+        When I’m not coding, I love exploring emerging technologies, contributing to open-source projects, and collaborating with like-minded individuals. My ultimate goal is to use technology to create meaningful experiences, helping people and businesses achieve more through smart, innovative solutions.
+      </p>
     </div>
 
-    <!--right side --> 
+    <!-- Right Side: Skills -->
     <div class="skills">
       <div class="skill-item">
         <div class="skill-name">
@@ -93,43 +94,26 @@ When I’m not coding, I love exploring emerging technologies, contributing to o
     </div>
   </div>
 </section>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="styles/styles.css">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-</head>
-<body>
-
   <!-- Projects Section -->
   <section class="projects" id="projects">
     <h2 class="section-title">My Projects</h2>
-
     <div class="projects-grid">
-      <!-- 1st Project Card -->
       <div class="project-card">
         <img src="images/employment1.jpg" alt="Forsah Project" class="project-img">
         <h3 class="project-title">Forsah - Employment Platform</h3>
         <p class="project-description">
-          I worked on this project with my team as our graduation project.
+           I worked on this project with my team as our graduation project.
           The goal was to create a recruitment platform that connects job seekers with employers in an easy and effective way.
           Our platform focuses on inclusion, making it simple for people with special needs to participate and find the right opportunities.
-          The system includes: User Accounts (for job seekers & employers), Job Listings (easy to search and filter), Smart Matching Tools.
-        </p>
+          The system includes: User Accounts (for job seekers & employers), Job Listings (easy to search and filter), Smart Matching Tools.</p>
       </div>
-
-      <!-- 2nd Project Card -->
       <div class="project-card">
         <img src="images/ticket2.png" alt="Ticket Project" class="project-img">
         <h3 class="project-title">Ticket Booking Website</h3>
         <p class="project-description">
           My Summer Training Project. During my summer university training at King Fahd Medical City, my team and I designed and developed a flight ticket booking website. 
           The project aims to make it easy for users to search for available flights, select the most suitable option, and book tickets quickly and securely.
-          The system includes user accounts, flight details, and a booking management system to organize reservations efficiently.
-        </p>
+          The system includes user accounts, flight details, and a booking management system to organize reservations efficiently.</p>
       </div>
     </div>
   </section>
@@ -137,39 +121,22 @@ When I’m not coding, I love exploring emerging technologies, contributing to o
   <!-- Contact Section -->
   <section class="contact" id="contact">
     <h2 class="section-title">Get In Touch</h2>
-    
     <form class="contact-form">
-      <!-- Name Field -->
-      <div class="form-group">
-        <label for="name" class="form-label">Name</label>
-        <input type="text" id="name" class="form-input" placeholder="Enter your name" required>
-      </div>
-
-      <!-- Email Field -->
-      <div class="form-group">
-        <label for="email" class="form-label">Email</label>
-        <input type="email" id="email" class="form-input" placeholder="Enter your email" required>
-      </div>
-
-      <!-- Message Field -->
-      <div class="form-group">
-        <label for="message" class="form-label">Message</label>
-        <textarea id="message" class="form-input" placeholder="Write your message" rows="5" required></textarea>
-      </div>
-
-      <!-- Submit Button -->
+      <input type="text" name="user_name" placeholder="Your Name" required>
+      <input type="email" name="user_email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Write your message" rows="5" required></textarea>
       <button type="submit" class="contact-button">Send Message</button>
     </form>
-
-    <!-- Contact Info -->
-    <p><i class="fas fa-envelope"></i> <a href="mailto:sahabalfahad6@gmail.com">sahabalfahad6@gmail.com</a></p>
-    <p><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/sahab-alfahad-a08830346" target="_blank" rel="noopener noreferrer">My LinkedIn</a></p>
-    <p><i class="fab fa-github"></i><a href="https://github.com/engsahab" target="_blank" rel="noopener noreferrer">My GitHub</a></p>
-
-    <!-- Dark Mode Button -->
+    <div class="contact-info">
+      <p><i class="fas fa-envelope"></i> <a href="mailto:sahabalfahad6@gmail.com">sahabalfahad6@gmail.com</a></p>
+      <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/sahab-alfahad-a08830346" target="_blank">LinkedIn</a></p>
+      <p><i class="fab fa-github"></i> <a href="https://github.com/engsahab" target="_blank">GitHub</a></p>
+    </div>
     <button id="darkModeBtn">Toggle Dark Mode</button>
   </section>
 
+  <!-- JS -->
+  <script src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
   <script src="scripts/scripts.js"></script>
 </body>
 </html>
